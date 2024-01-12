@@ -8,21 +8,14 @@
   <br>
 </h1>
 
-## _Project Name_
-_The project name should match its code's capability so that new users can easily understand what it does._
+## STT model evaluation
 
-## Owner(s)
-
-_Change to the owner(s) of the new repo. (This template's owners are:)_
-- [@ngawangtrinley](https://github.com/ngawangtrinley)
-- [@mikkokotila](https://github.com/mikkokotila)
-- [@evanyerburgh](https://github.com/evanyerburgh)
+## Owner(s)_
+- [@spsither](https://github.com/spsither)
+- [@TenzinGayche](https://github.com/TenzinGayche)
 
 ## RFXs
-Requests for work (RFWs) and requests for comments (RFCs) associated with this project:
-* [RFX name](#)
-* [RFX name](#)
-* [RFX name](#)
+* [RFW0125: Technical documentation about STT and TTS workflow for other developers](https://github.com/OpenPecha/Requests/issues/363)
 
 ## Table of contents
 <p align="center">
@@ -38,26 +31,15 @@ Requests for work (RFWs) and requests for comments (RFCs) associated with this p
 <hr>
 
 ## Project description
-_Use one of these:_
-
-With _Project Name_ you can _verb_ _noun_...
-
-_Project Name_ helps you _verb_ _noun_...
+With STT Model evaluation you can evaluate any STT model Character Error Rate (CER) on a benchmark dataset.
+The benchmark dataset used is [openpecha/tibetan-voice-benchmark](https://huggingface.co/datasets/openpecha/tibetan-voice-benchmark)
 
 
 ## Who this project is for
-This project is intended for _target user_ who wants to _user objective_.
-
-
-## Project dependencies
-Before using _Project Name_, ensure you have:
-* _Prerequisite 1_
-* _Prerequisite 2_
-* _Prerequisite 3..._
-
+This project is intended for STT model trainer who wants to measure the performance of a STT model.
 
 ## Instructions for use
-Get started with _Project Name_ by _(write the first step a user needs to start using the project. Use a verb to start.)_.
+Get started with STT Model Evaluation by running the evaluate.ipynb notebook.
 
 
 ### Install _Project Name_
